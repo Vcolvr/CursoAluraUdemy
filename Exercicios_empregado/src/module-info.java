@@ -1,0 +1,2 @@
+module exercicios_empregado {
+}

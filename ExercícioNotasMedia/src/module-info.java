@@ -1,0 +1,2 @@
+module exercício_NotasMedia {
+}
