@@ -1,3 +1,3 @@
 # CursoAluraUdemy
 Atividades dos cursos EAD
-Atividades que pretendo deixar aqui para quase uma biblioteca minha para futuras referências.
+Esses exercícios estão aqui como portfólio e como referências para futuros exercícios
