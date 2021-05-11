@@ -13,11 +13,13 @@ public class ParOuImpar {
 			int A = sc.nextInt();
 					
 			if ( A % 2 == 0) {
-			System.out.println("PAR");
+				System.out.println("PAR");
 			}
 			
-			else
-			System.out.println("IMPAR");
+			else {
+				System.out.println("IMPAR");
+			}
+			
 			
 				
 			sc.close();

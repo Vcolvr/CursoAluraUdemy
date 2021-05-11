@@ -43,7 +43,5 @@ public class Client {
 	public String toString() {
 		return  name +  " "  + sdf.format(birthDate) + " " + email;
 	}
-	
-	
-	
+
 }
