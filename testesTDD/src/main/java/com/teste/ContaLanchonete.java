@@ -28,4 +28,37 @@ public class ContaLanchonete {
 		}
 		return total;
 	}
+	
+	public String novoPedido(String nome, int... pedido) {
+		String pedidoFinal = nome + ", seu pedido foi de: ";
+		int contador = 0;
+		
+		for(int e: pedido) {
+			
+			if(e == 1) {
+				pedidoFinal+= "fritas";
+			}
+			else if(e == 2) {
+				pedidoFinal+= "hamburguer";
+			}
+			else {
+				pedidoFinal+= "refrigerante";
+			}
+			
+			contador++;
+			
+			if(contador == pedido.length - 1) {
+				pedidoFinal+= " e ";
+			}
+			else if(contador == pedido.length) {
+				pedidoFinal+= ".";
+			}
+			else {
+				pedidoFinal+= ", ";
+			}
+			
+		}
+		
+		return pedidoFinal;
+	}
 }
