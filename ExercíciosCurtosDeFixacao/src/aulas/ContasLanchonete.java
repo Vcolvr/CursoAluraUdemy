@@ -40,7 +40,7 @@ public class ContasLanchonete {
 			System.out.println("ERROR");
 		}
 
-		System.out.printf("Total: R$ %.2f%n", total);
+		System.out.printf("Total: R$ %f", total);
 
 		sc.close();
 

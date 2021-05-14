@@ -42,10 +42,9 @@ public class Main {
 			order.addItem(item);
 		}
 		
-		System.out.println(order);
-		
+		for(int i = 1; i<= n; i++) {
+			System.out.println(order);
+		}
 		sc.close();
-
 	}
-
 }
